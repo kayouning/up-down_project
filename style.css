@@ -40,7 +40,7 @@ border-radius: 26px;
 box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
 padding: 15px 0 40px;
  text-align: center;
- width: 33%;
+ width: 36%;
  height: auto;
  min-width: 480px;
 }
@@ -120,3 +120,55 @@ input[type='number'] {
       border-radius: 50px;
       cursor: pointer;
     } 
+
+
+    @media (min-width:900px) and (max-width: 1400px) {
+#background{
+  /* border: 5px solid rgb(14, 223, 80); */
+}
+#contents{
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  padding: 15px 0 40px;
+    width:520px;
+  }
+#contents #result-area{
+  font-size: 30px;
+  padding: 28px 0;
+  
+  }
+
+#contents  #input-container{
+  width: 85%;
+  padding: 8px;
+}
+
+#contents  #user-input{
+  font-size: 20px;
+  padding: 10px 15px;
+  width: 78%;
+}
+
+#contents  #play-button{
+  font-size: 30px;
+  padding: 10px 20px;
+} 
+
+#contents #chanceContainer{
+  font-size: 26px;
+  color: #494949;
+  padding: 30px 0 40px;
+  }
+
+  #contents #chanceContainer span{
+    font-size: 26px;
+    }
+
+    #contents  #reset-button{
+      font-size: 30px;
+      padding: 12px 25px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    }
+
+   

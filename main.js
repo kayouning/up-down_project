@@ -41,7 +41,6 @@ if(history.includes(userValue)){
 
 chances --;
 chanceArea.textContent = `${chances}회`;
-console.log("찬스",chances)
 
 if(userValue<computerNum){
   resultArea.textContent = "up!";
