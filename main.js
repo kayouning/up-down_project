@@ -35,7 +35,7 @@ if(userValue < 1 || userValue > 100){
 }
 
 if(history.includes(userValue)){
-  resultArea.textContent = "이미 입력한 숫자입니다 다른 숫자를 입력해주세요"
+  resultArea.textContent = "이미 입력한 숫자입니다"
   return
 }
 

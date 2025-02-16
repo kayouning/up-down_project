@@ -291,7 +291,7 @@ padding: 40px 0 50px;
       width: 250px;
     }
     #contents #result-area{
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 28px 0;
     
     }
@@ -312,7 +312,6 @@ padding: 40px 0 50px;
     #contents  #play-button{
     font-size: 22px;
     padding: 10px 20px;
-    /* float: none; */
     } 
     
     #contents #chanceContainer{
